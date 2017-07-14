@@ -1,0 +1,11 @@
+Package: msbclient
+Type: Package
+Title: Client for connecting to VFK's MSB
+Version: 0.1.0
+Author: Maximilian Kiesner
+Maintainer: Maximilian Kiesner <maximilian.kiesner@max-con.de>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
