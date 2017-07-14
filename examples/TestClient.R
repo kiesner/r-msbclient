@@ -1,7 +1,7 @@
 source("R/MSBClient.R")
 
 
-cfg = list(uuid="55d88-34cf-4836-8cc1-7e0d9c5dca12c4",
+cfg = list(uuid="9abd27c6-01e9-465b-a0fc-a046cf812955",
            name = "Python sensor client",
            description="Test client description goes here.",
            token="py1",
@@ -68,4 +68,3 @@ event <- list(
 
 client <- add_event(client, event)
 register_smartobject(client)
-do_something(client)

@@ -138,6 +138,7 @@ setMethod(f = "register_application",
                          msg=get_self_description(theObject),
                          verbose = theObject@debug
                          )
+            do_something(theObject)
             return(r)
           })
 # method register_smartobject ####
@@ -156,6 +157,7 @@ setMethod(f = "register_smartobject",
                              msg=get_self_description(theObject),
                              verbose = theObject@debug
             )
+            do_something(theObject)
             return(r)
           })
 
